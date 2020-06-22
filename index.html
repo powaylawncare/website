@@ -910,15 +910,113 @@ h3 {
     text-align: center;
   }
 }
+.container-flex-nav span{
+    font-size: 150%;
+    font-weight: bold;
+    font-family: 'Montserrat';
+    color: #006650;
+    position: fixed;
+    margin-left: 7vw;
+}
+h3 {
+    color: #006650 !important;
+}
+.price-type.white-text {
+    color: rgb(243,243,243) !important;
+}
+.heading {
+    color: #008d6f !important;
+}
+.heading-2 {
+    color: #008d6f;
+}
+@media screen and (max-width: 767px) {
+  .standard-tab {
+    width: 100%;
+  }
+  .content-h1 {
+    font-size: 55px;
+  }
+  .banner-bar {
+    background-image: none;
+    background-position: 0px 0px;
+    background-size: auto;
+    background-repeat: repeat;
+  }
+  .price-card {
+    padding-right: 24px;
+    padding-left: 24px;
+  }
+  .contact-form {
+    padding: 40px 20px;
+  }
+  .content-h1-copy {
+    font-size: 55px;
+  }
+}
+.flowbase-navigation {
+    height: 7%;
+    min-height: 5%;
+    position:fixed;
+    background: #fff;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.08);
+}
 
+@media screen and (max-width: 479px) {
+  .footer {
+    background-image: none;
+    background-position: 50% 0%;
+    background-size: cover;
+    background-repeat: repeat-x;
+  }
+  .content-h1 {
+    font-size: 42px;
+    text-align: center;
+  }
+  .banner-bar {
+    display: none;
+  }
+  .pricing-grid {
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+    -ms-grid-rows: auto auto auto auto;
+    grid-template-rows: auto auto auto auto;
+  }
+  .pricing-card-featured {
+    width: 100%;
+  }
+  .content-h1-copy {
+    font-size: 42px;
+    text-align: center;
+  }
+}
+.pricing-card-featured {
+    box-shadow: 5px 25px 25px 0px rgba(5,49,32,0.44);
+}
+.content-h1-copy {
+    border: 5px solid white;
+}
+.button-copy {
+    display: flex;
+    padding: 5px 20px;
+    border-radius: 50px;
+    font-size: 130%;
+    background-image: linear-gradient(45deg, #00785e, #236a75);
+
+}
+.button-copy2 {
+    display: flex;
+    padding: 5px 25px;
+    font-size: 130%;
+    border-radius: 50px;
+    background-image: linear-gradient(45deg, #00785e, #236a75);
+
+}
   </style>
-    <script src="luxy.js" charset="utf-8"></script>
-  <script charset="utf-8">
-    luxy.init();
-</script>
 </head>
 <body>
   <div id="luxy">
+        <script src="luxy.js" charset="utf-8"></script>
   <div class="pricing-section">
     <div class="flowbase-navigation">
       <div class="container-flex-nav"><a href="#" class="logo-block w-inline-block"><img src="lgoo.png" width="600" srcset="lgoo.png 500w, lgoo.png 800w" sizes="55px" alt="" class="flowbase-logo"></a>

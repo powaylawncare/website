@@ -1,1 +1,127 @@
 
+body {margin: 0;}
+.pricing-section {
+    background: #fef6e4;
+}
+.flowbase-navigation {
+    background: #fef6e4;
+    box-shadow: unset;
+    position: absolute;
+    height: 1%;
+    border-bottom: 2px solid rgba(100,100,100,0.25);
+}
+.button-menu {
+    background: #f582ae;
+    color: #001858;
+    border-radius: 3px;
+    text-transform: lowercase;
+}
+.flowbase-logo {
+    filter: hue-rotate(155deg);
+}
+.w-inline-block {
+    filter: brightness(120%);
+}
+.content-h1-copy {
+    border: unset;
+    background: unset;
+    color: #001858;
+    text-transform: lowercase;
+}
+.text-block {
+    color: #172c66;
+    text-transform: lowercase;
+}
+.pricing-card-featured {
+    border-radius: 8px;
+    border: 3px solid #000;
+    background: #f3d2c1;
+}
+.pricing-base {
+   border: 3px solid #001858;
+    border-radius: 10px;
+    background: #8bd3dd;
+}
+.pricing.white-text {
+    color: #001858; 
+}
+.price-type.white-text {
+    color: #001858 !important;
+}
+.pricing-text.white-text {
+    color: #172c66;
+}
+.feature-text.white-text {
+    color: #172c66;
+}
+.button-white {
+        border-radius: 8px;
+    border: 3px solid #000;
+    background: #8bd3dd !important;
+    color: #0e172c !important;
+    text-transform: lowercase;
+}
+.pricing-card-featured .check {
+    filter: brightness(-10%);
+}
+.price-card .w-button {
+    background: #f3d2c1 !important;
+    border: 3px solid #000;
+    border-radius: 8px;
+    color: #0e172c;
+    text-transform: lowercase;
+}
+.price-card .check {
+    filter: brightness(10%);
+}
+
+.heading {
+    color: #001858 !important;
+}
+.heading-2 {
+    color: #001858 !important;
+}
+.price-card .price-type {
+    color: #172c66 !important;
+}
+.price-card .pricing-text {
+    color: #172c66 !important;    
+}
+
+.price-card .feature-text {
+    color: #172c66 !important;  
+}
+.w-container {
+    background: #8bd3dd;
+    border: 3px solid #0e172c;
+    border-radius: 8px;
+}
+.button-copy {
+            border-radius: 8px;
+    border: 3px solid #001858;
+    background: #f3d2c1 !important;
+}
+h2 {
+    color: #001858;
+}
+.button-copy span {
+    background: unset;
+      -webkit-background-clip: unset;
+  -webkit-text-fill-color: unset;
+    color: #001858 !important;
+    text-transform: lowercase;
+}
+.button-copy2 span {
+    background: unset;
+      -webkit-background-clip: unset;
+  -webkit-text-fill-color: unset;
+    color: #001858 !important;
+    text-transform: lowercase;
+}
+.button-copy2 {
+            border-radius: 8px;
+    border: 3px solid #001858;
+    background: #f3d2c1 !important;
+    color: #001858 !important;
+    text-transform: lowercase;
+}

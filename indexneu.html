@@ -1121,27 +1121,36 @@ body::-webkit-scrollbar-thumb {
 .container-flex-nav span {
     display: none;
 }
-          
+.banner {display: none;}
+         
+@media all and (display-mode: standalone) {
+    .banner {
+         display: unset;
+     }
+}
   </style>
       <link rel="stylesheet" href="styles.css">
 </head>
-<script>
-          if( /iPhone|iPad|iPod/i.test(navigator.userAgent) ) {
-document.body.onload = addElement;
-
-function addElement () { 
-  // create a new div element 
-  var newDiv = document.createElement("pwadiv"); 
-  // and give it some content 
-  var newContent = document.createTextNode("You're currently using iOS. Feel free to add this website as a PWA (Progressive Web App) in your settings."); 
-  // add the text node to the newly created div
-  newDiv.appendChild(newContent);  
-
-  // add the newly created element and its content into the DOM 
-  var currentDiv = document.getElementById("content-h1-copy"); 
-  document.body.insertBefore(newDiv, currentDiv); 
-}
-}
+    <script> 
+         butInstall.addEventListener('click', () => {
+  console.log('👍', 'butInstall-clicked');
+  const promptEvent = window.deferredPrompt;
+  if (!promptEvent) {
+    // The deferred prompt isn't available.
+    return;
+  }
+  // Show the install prompt.
+  promptEvent.prompt();
+  // Log the result
+  promptEvent.userChoice.then((result) => {
+    console.log('👍', 'userChoice', result);
+    // Reset the deferred prompt variable, since
+    // prompt() can only be called once.
+    window.deferredPrompt = null;
+    // Hide the install button.
+    divInstall.classList.toggle('hidden', true);
+  });
+});
 </script>
 <body>
   <div class="pricing-section">

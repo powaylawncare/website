@@ -2,7 +2,7 @@
   "name": "Poway Lawn Care",
   "short_name": "Lawncare",
   "description": "Progressive Web App for the Poway Lawn Care business. Far more convenient on mobile.",
-  "start_url": "/mobileneu",
+  "start_url": "#",
   "background_color": "#eee",
   "theme_color": "#00785e",
   "display": "standalone",

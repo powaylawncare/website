@@ -1136,6 +1136,24 @@ body::-webkit-scrollbar-thumb {
   </style>
       <link rel="stylesheet" href="styles.css">
 </head>
+<script>
+          if( /iPhone|iPad|iPod/i.test(navigator.userAgent) ) {
+document.body.onload = addElement;
+
+function addElement () { 
+  // create a new div element 
+  var newDiv = document.createElement("pwadiv"); 
+  // and give it some content 
+  var newContent = document.createTextNode("You're currently using iOS. Feel free to add this website as a PWA (Progressive Web App) in your settings."); 
+  // add the text node to the newly created div
+  newDiv.appendChild(newContent);  
+
+  // add the newly created element and its content into the DOM 
+  var currentDiv = document.getElementById("content-h1-copy"); 
+  document.body.insertBefore(newDiv, currentDiv); 
+}
+}
+</script>
 <body>
   <div class="pricing-section">
     <div class="flowbase-navigation">

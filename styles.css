@@ -153,16 +153,29 @@ h2 {
 }
 
 .button-white {
-    transition: .5s ease;
+    transition: .3s ease;
 }
 .button-white:hover {
     box-shadow: -5px 5px 0px 0px #000;
     margin-left: 5px;
 }
 .price-card .w-button {
-    transition: .5s ease;
+    transition: .3s ease;
 }
 .price-card .w-button:hover {
     box-shadow: -5px 5px 0px 0px #000;
     margin-left: 5px;
+}
+.button-copy {
+    transition: .3s ease;    
+}
+.button-copy:hover {
+    box-shadow: -5px 5px 0px 0px #000;
+    margin-bottom: 5px;
+}
+.button-copy2 {
+    transition: .3s ease;    
+}
+.button-copy2:hover {
+    box-shadow: -5px 5px 0px 0px #000;
 }

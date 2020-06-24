@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@600&display=swap');
 body {margin: 0;}
 .pricing-section {
     background: #fef6e4;
@@ -17,7 +18,7 @@ body {margin: 0;}
     transition-delay: .04s;
 }
 .button-menu:hover {
-    box-shadow: inset 15vw 0vw #8bd3dd;
+    box-shadow: inset 250px 0vw #8bd3dd;
     color: #001858;
     text-transform: lowercase;
 }
@@ -136,4 +137,17 @@ h2 {
 .button-menu {
     border: 3px solid #000000;
     border-radius: 8px;
+}
+.banner {
+    display: relative;
+    left: 100px;
+    border-radius: 8px;
+    border: 3px solid #001858;
+    background: #f3d2c1 !important;
+    padding: 8px;
+    font-size: 190%;
+    width: 80vw;
+}
+.title-wrap img {
+    display: none;
 }

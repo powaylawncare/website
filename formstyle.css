@@ -48,7 +48,7 @@ li.form-line-error input:not(#coupon-input), li.form-line-error select, li.form-
     border: 3px solid #001858;
 }
 .form-all {
-    background: unset;
+    background: unset !important;
 }
 .button-menu {
   display: -webkit-box;

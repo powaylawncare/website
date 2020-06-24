@@ -1,5 +1,5 @@
 .formFooter {
-    display: none;
+    display: none !important;
 }
 .flowbase-logo {
     filter: hue-rotate(155deg);
@@ -39,7 +39,7 @@ li.form-line-error input:not(#coupon-input), li.form-line-error select, li.form-
     width: 90%;
 }
 .page-section {
-    margin-top: 100px;
+    margin-top: 100px !important;
     box-shadow: unset !important;
     background: unset;
     padding-left: 5px;

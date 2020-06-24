@@ -151,3 +151,18 @@ h2 {
 .title-wrap img {
     display: none;
 }
+
+.button-white {
+    transition: .5s ease;
+}
+.button-white:hover {
+    box-shadow: -5px 5px 0px 0px #000;
+    margin-left: 5px;
+}
+.price-card .w-button {
+    transition: .5s ease;
+}
+.price-card .w-button:hover {
+    box-shadow: -5px 5px 0px 0px #000;
+    margin-left: 5px;
+}

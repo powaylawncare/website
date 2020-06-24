@@ -1,5 +1,5 @@
 .formFooter {
-    display: none !important;
+    display: none ;
 }
 .flowbase-logo {
     filter: hue-rotate(155deg);
@@ -35,15 +35,14 @@ li.form-line-error input:not(#coupon-input), li.form-line-error select, li.form-
     border-color: #8bd3dd;
 }
 .form-line {
-    background: #f3d2c1;
+    background: #f3d2c1 !important;
     width: 90%;
 }
 .page-section {
-    margin-top: 100px !important;
     box-shadow: unset !important;
     background: unset;
     padding-left: 5px;
-    background: #f3d2c1;
+    background: #f3d2c1 !important;
     border-radius: 10px;
     border: 3px solid #001858;
 }
@@ -117,37 +116,47 @@ li.form-line-error input:not(#coupon-input), li.form-line-error select, li.form-
     border: unset;
     border: 3px solid #001858;
     font-size: 150%;
-    box-shadow: unset;
+    box-shadow: unset;a
     text-shadow: unset;
     border-radius: 10px;
 }
 .form-all .form-submit-button {
-        background: #f582ae;
+        background: #f582ae !important;
     font-family: Montserrat;
     color: #fff !important;
     border: unset !important;
     border: 3px solid #001858 !important;
-    font-size: 150%;
+    font-size: 150% !important;
     box-shadow: unset;
     text-shadow: unset;
-    border-radius: 10px;
+    border-radius: 10px!important;
 }
 .form-pagebreak-back {
-            background: #f582ae;
+            background: #f582ae !important;
     font-family: Montserrat;
     color: #fff !important;
     border: unset !important;
     border: 3px solid #001858 !important;
-    font-size: 150%;
+    font-size: 150% !important;
     box-shadow: unset;
     text-shadow: unset;
-    border-radius: 10px;
+    border-radius: 10px !important;
+}
+.form-pagebreak-back:hover {
+            background: #f582ae !important;
+    font-family: Montserrat !important;
+    color: #fff !important;
+    border: unset !important;
+    border: 3px solid #001858 !important;
+    box-shadow: unset;
+    text-shadow: unset;
+    border-radius: 10px !important;
 }
 #\32 01757237844158 {
-    background: #fef6e4;
+    background: #fef6e4 !important;
     display: flex;
     justify-content: center;
 }
 body {
-    background: #fef6e4;
+    background: #fef6e4 !important;
 }

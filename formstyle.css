@@ -120,6 +120,15 @@ li.form-line-error input:not(#coupon-input), li.form-line-error select, li.form-
     text-shadow: unset;
     border-radius: 10px;
 }
+    @media only screen and (max-width: 600px) {
+        #\32 01757237844158 .form-pagebreak-next {
+    margin-bottom: 10px !important;
+    margin-right: 10px !important
+        }
+        .form-pagebreak-back {
+            margin-bottom: 10px !important;
+        }
+}
 .form-all .form-submit-button {
         background: #f582ae !important;
     font-family: Montserrat;

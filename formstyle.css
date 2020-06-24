@@ -123,11 +123,13 @@ li.form-line-error input:not(#coupon-input), li.form-line-error select, li.form-
     @media only screen and (max-width: 600px) {
         #\32 01757237844158 .form-pagebreak-next {
     margin-bottom: 10px !important;
-    margin-right: 10px !important
+    margin-right: 10px !important;
+        width: 90% !important;
         }
         .form-pagebreak-back {
             margin-bottom: 10px !important;
         }
+        .page-section {display: flex;}
 }
 .form-all .form-submit-button {
         background: #f582ae !important;

@@ -120,7 +120,7 @@ li.form-line-error input:not(#coupon-input), li.form-line-error select, li.form-
     text-shadow: unset;
     border-radius: 10px;
 }
-    @media only screen and (max-width: 600px) {
+    @media only screen and (max-width: 770px) {
         #\32 01757237844158 .form-pagebreak-next {
     margin-bottom: 10px !important;
     margin-right: 10px !important;
@@ -129,7 +129,8 @@ li.form-line-error input:not(#coupon-input), li.form-line-error select, li.form-
         .form-pagebreak-back {
             margin-bottom: 10px !important;
         }
-        .page-section {display: flex;}
+        .page-section {display: block;}
+        .form-line[data-type="control_phone"] .form-input > div, .form-line[data-type="control_phone"] .form-input-wide>div {display: block !important;}
 }
 .form-all .form-submit-button {
         background: #f582ae !important;
@@ -175,4 +176,3 @@ body {
 .page-section {
     margin-top: 150px !important;
 }
-.form-section {display: block !important;}
